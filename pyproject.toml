@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Salvador Hernández Mendoza <salvadorhm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "demo_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+web-py = "^0.62"
+numpy = "^1.24.1"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
